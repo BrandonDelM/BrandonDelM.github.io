@@ -1,0 +1,15 @@
+.Header{
+    background-color: #0081A7;
+    width: 100%;
+    max-height: 20%;
+    padding: 0px 0px 10px 0px;
+}
+
+.Text{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 50px;
+    color: #FDFCDC;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
