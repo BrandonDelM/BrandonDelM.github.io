@@ -7,8 +7,8 @@ function Footer(){
         <div class="Footer">
             <div class="Foottext">Brandon Del Mundo</div>
             <div class="Links">
-                <a href="https://www.linkedin.com/in/brandon-dm/"><img src={Linkedkin} class="Links"/></a>
-                <a href="https://github.com/BrandonDelM"><img src={Github} class="Links"/></a>
+                <a href="https://www.linkedin.com/in/brandon-dm/"><img src={Linkedkin} class="Links" alt="Linkedin"/></a>
+                <a href="https://github.com/BrandonDelM"><img src={Github} class="Links" alt="Github"/></a>
             </div>
         </div>
     )

@@ -5,7 +5,7 @@ import ReactDOM from 'react-dom/client';
 
 function Merced(){
     return(
-        <div class="Merced">
+        <div class="Merced" alt="Merced">
             <div class="Centerbox">
                 <p class="Imagetitle">Here's a soothing image I took in UC Merced to cap off this page!</p>
             </div>
