@@ -1,0 +1,25 @@
+.Footer{
+    background-color: #0081A7;
+    width: 100%;
+    min-height: 5vh;
+    padding: 0px 0px 10px 0px;
+}
+
+.Foottext{
+    padding-left: 10vh;
+    text-align: left;
+    vertical-align: middle;
+    padding-top: 1.5vh;
+    font-size: 25px;
+    color: #FDFCDC;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    position: absolute;
+}
+
+.Links{
+    padding-top: 0.25vh;
+    align-items: right;
+    vertical-align: middle;
+    float: right;
+}

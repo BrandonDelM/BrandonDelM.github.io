@@ -1,0 +1,49 @@
+.Hero-Main{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 100%;
+}
+
+.Panel{
+    float: left;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background-color: #FED9B7;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 2%;
+    max-width: 40%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #fed5af;
+}
+
+.Brandon{
+    max-width: 100%;
+    align-items: center;
+    border-style: solid;
+    border-color: #F07167;
+}
+
+#align-right{
+    float:right;
+}
+
+#Text{
+    padding: 1%;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    word-wrap:break-word;
+    justify-content: space-between;
+}
+
+#paragraph{
+    padding: 2%;
+    text-align: center;
+    font-size: 22px;
+    justify-content: space-between;
+   
+}

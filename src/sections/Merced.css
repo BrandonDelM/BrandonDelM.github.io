@@ -1,0 +1,32 @@
+.Merced{
+    width: 100%;
+    display: absolute;
+    height: 100vh;
+    opacity: 80%;
+    overflow: hidden;
+    background-image: url('../assets/Merced.webp');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+.Centerbox{
+    width: 50%;
+    height: 25%;
+    background-color: rgba(254, 217, 183, 50%);
+    border-style: solid;
+    border-color: rgba(253, 252, 220, 25%);
+    border-radius: 25px;
+    position: relative;
+    top: 25%;
+    left: 25%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.Imagetitle{
+    font-size:50px;
+    font-weight: bold;
+    color: #f1665b;
+    align-items: center;
+}

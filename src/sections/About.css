@@ -1,0 +1,29 @@
+@keyframes hovering {
+    100% {
+        top: 54px;
+    }
+    0% {
+        top: 0px;
+    }
+}
+
+.snippet {
+    width: 90%;
+    border-style: solid;
+    border-color: #F07167;
+}
+
+#Panel-hover{
+    width: 40%;
+    position: relative;
+    animation-name: hovering;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+#caption{
+    font-style: bold;
+    font-size: 20px;
+}

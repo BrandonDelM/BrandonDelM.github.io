@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Break{
+  width: 98%;
+  margin: 0% 1% 0% 1%;
+}
+
+#Hidden{
+  opacity: 0%;
+  position: relative;
+}

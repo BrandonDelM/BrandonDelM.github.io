@@ -1,17 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header';
-import Hero from './Hero';
+import Header from './sections/Header';
+import Hero from './sections/Hero';
+import Break from './sections/Break'
+import About  from './sections/About'
+import Merced from './sections/Merced'
+import Footer from './sections/Footer'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
     <Hero />
-    <App />
+    <Break />
+    <About />
+    <Break />
+    <Merced />
+    <Break id="Hidden"/>
+    <Footer/>
   </React.StrictMode>
 );
 
