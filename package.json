@@ -1,7 +1,7 @@
 {
   "name": "website",
   "version": "0.1.0",
-  "homepage": "https://BrandonDelM.github.io",
+  "homepage": "https://brandondelm.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -22,10 +22,6 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
