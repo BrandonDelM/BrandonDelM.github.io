@@ -4,10 +4,10 @@ import Brandon from '../assets/Brandon.png';
 function Hero(){
     return(
         <div class="Hero-Main"> 
-            <div class="Panel">
+            <div class="Panel" id="Slideinleft">
                 <img src={Brandon} alt="Brandon" class="Brandon"/>
             </div>
-            <div class="Panel" id="align-right">
+            <div class="Panel" id="Slideinright">
                 <div id="Text">
                     This is my work in progress web page made in React.js!
                 </div>

@@ -1,10 +1,46 @@
+@keyframes slideright {
+    0%{
+        right:-50vh;
+        opacity: 0;
+    }
+    100%{
+        opacity:1;
+        right:0vh;
+    }
+}
+
+@keyframes slideleft {
+    0%{
+        left:-50vh;
+        opacity: 1;
+    }
+    100%{
+        opacity:1;
+        left:0vh;
+    }
+}
+
+#Slideinright{
+    animation-name: slideright;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    position: relative;
+}
+
+#Slideinleft{
+    animation-name: slideleft;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    position: relative;
+}
+
 .Hero-Main{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100%;
 }
 
 .Panel{
-    float: left;
+    float:left;
     text-align: center;
     padding-top: 3%;
     padding-bottom: 3%;
@@ -13,11 +49,12 @@
     margin-right: auto;
     margin: 2%;
     max-width: 40%;
-    padding-left: 2.5%;
+    padding-left: 3%;
     padding-right: 2.5%;
     border-radius: 25px;
     border-style: solid;
     border-color: #fed5af;
+    position: relative;
 }
 
 .Brandon{
@@ -25,10 +62,6 @@
     align-items: center;
     border-style: solid;
     border-color: #F07167;
-}
-
-#align-right{
-    float:right;
 }
 
 #Text{

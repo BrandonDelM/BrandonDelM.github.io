@@ -1,3 +1,21 @@
+@keyframes slideIn{
+    100%{
+        top: 0px;
+        opacity:1;
+    }
+    0%{
+        top: -100px;
+        opacity:0;
+    }
+}
+
+#slideAnimation{
+    animation-name: slideIn;
+    animation-timing-function: ease-out;
+    animation-duration: 3s;
+    position: relative;
+}
+
 .Header{
     background-color: #0081A7;
     width: 100%;
