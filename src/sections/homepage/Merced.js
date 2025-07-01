@@ -1,4 +1,4 @@
-import Sunset from '../assets/Merced.jpg';
+import Sunset from '../../assets/Merced.jpg';
 import './Merced.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';

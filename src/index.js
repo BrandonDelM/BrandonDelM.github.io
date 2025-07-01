@@ -1,26 +1,26 @@
-import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import Header from './sections/Header';
-import Hero from './sections/Hero';
-import Break from './sections/Break'
-import About  from './sections/About'
-import Merced from './sections/Merced'
-import Footer from './sections/Footer'
+
+import Homepage from './sections/Homepage.js';
+import Userscripts from './sections/Userscripts.js';
+
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/">
+          <Route index element={<Homepage />} />
+          <Route path="userscripts" element={<Userscripts />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+  );
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <Header />
-    <Hero />
-    <Break />
-    <About />
-    <Break />
-    <Merced />
-    <Break id="Hidden"/>
-    <Footer/>
-  </React.StrictMode>
+    <App />
 );
 
 // If you want to start measuring performance in your app, pass a function

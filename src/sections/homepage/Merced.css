@@ -4,7 +4,7 @@
     height: 100vh;
     opacity: 80%;
     overflow: hidden;
-    background-image: url('../assets/Merced.webp');
+    background-image: url('../../assets/Merced.webp');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position-y: center;

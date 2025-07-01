@@ -1,0 +1,19 @@
+.Userscript-bg{
+    background-color:black;
+    height: 100vh;
+    color: white;
+}
+
+.Codeblock{
+    border-style: double;
+    width: 96vh;
+    height: 50vh;
+    font-size: 30px;
+    padding:1vh;
+    position: relative;
+    float: right;
+    margin-top: 1vh;
+    margin-right: 1vh;
+    border-radius: 25px;
+    font-family:'Lucida Console'
+}

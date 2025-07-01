@@ -1,6 +1,6 @@
 import './Footer.css'
-import Linkedkin from '../assets/Linkedin.png'
-import Github from '../assets/Github.png'
+import Linkedkin from '../../assets/Linkedin.png'
+import Github from '../../assets/Github.png'
 
 function Footer(){
     return(

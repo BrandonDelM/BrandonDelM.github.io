@@ -1,6 +1,6 @@
 import './Hero.js'
 import './About.css'
-import snippet from '../assets/Codesnippet.png'
+import snippet from '../../assets/Codesnippet.png'
 
 function About(){
     return(
