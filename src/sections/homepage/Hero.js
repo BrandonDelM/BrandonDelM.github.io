@@ -13,7 +13,9 @@ function Hero(){
                 </div>
                 <div>
                     <p className="hero-paragraph">I'm a Computer Science and Engineer B.S. major and a Cognitive Science B.S. minor at the University of California, Merced.</p>
-                    <p className="hero-paragraph">I'm the current leader of logistics at <a href="https://hackmerced.com/">HackMerced</a>, a hackathon organization and a web intern in the student branch of the <a href="https://saseucm.org/">Society of Asian Scientists and Engineers</a>, both located in UC Merced!</p>
+                    <p className="hero-paragraph">I'm the current treasurer of <a href="https://hackmerced.com/">HackMerced</a>, a UC Merced hackathon organization.
+                    I'm one of the lead web developers of the UC Merced student branch of the <a href="https://saseucm.org/">Society of Asian Scientists and Engineers</a>
+                    I'm also an undergraduate research assistant in the <a href="https://cogmech.ucmerced.edu/">Cognitive Mechanics Lab</a> in UC Merced under Professor Kello.</p>
                     <p className="hero-paragraph">I'm seeking hands-on application of the skills I've learned to create new opportunities and potential internships right now and beyond.</p>
                     <p className="hero-paragraph">In my free time, I love to create and listen to music. Alongside music, I enjoy participating in the UC Merced community through joining student clubs and participating in events that happen during the school year.</p>
                 </div>
