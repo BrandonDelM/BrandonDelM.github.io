@@ -16,7 +16,6 @@ function Homepage(){
             <About />
             <Break />
             <Merced />
-            <Break />
             <Footer />
         </>
     );
