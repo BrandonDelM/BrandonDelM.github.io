@@ -1,32 +1,90 @@
 .Merced{
     width: 100%;
-    display: absolute;
+    position: relative;
     height: 100vh;
-    opacity: 80%;
+    opacity: 0.8;
     overflow: hidden;
     background-image: url('../../assets/Merced.webp');
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: center;
+    background-position: center;
 }
 
 .Centerbox{
-    width: 50%;
-    height: 25%;
-    background-color: rgba(254, 217, 183, 50%);
+    width: 70%;
+    max-width: 1000px;
+    min-width: 320px;
+    height: auto; 
+    padding: 3rem 2.5rem;
+    box-sizing: border-box;
+    background-color: rgba(254, 217, 183, 0.5); 
     border-style: solid;
-    border-color: rgba(253, 252, 220, 25%);
+    border-color: rgba(253, 252, 220, 0.25);
     border-radius: 25px;
-    position: relative;
-    top: 25%;
-    left: 25%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
 }
 
 .Imagetitle{
-    font-size:50px;
+    font-size: clamp(1.25rem, 2.5vw, 2.75rem);
     font-weight: bold;
     color: #f1665b;
-    align-items: center;
+    margin: 0;
+    line-height: 1.4;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .Centerbox {
+        width: 78%;
+        padding: 2.5rem 2rem;
+    }
+    
+    .Imagetitle {
+        font-size: clamp(1.125rem, 3.5vw, 2.25rem);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Centerbox {
+        width: 88%;
+        min-width: 300px;
+        padding: 2.25rem 1.75rem;
+    }
+    
+    .Imagetitle {
+        font-size: clamp(1rem, 4.5vw, 1.875rem);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Centerbox {
+        width: 92%;
+        padding: 1.5rem 1.25rem;
+    }
+    
+    .Imagetitle {
+        font-size: clamp(1rem, 6vw, 1.75rem);
+        line-height: 1.6;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .Centerbox {
+        width: 95%;
+        padding: 1.25rem 1rem;
+    }
+    
+    .Imagetitle {
+        font-size: clamp(0.875rem, 7vw, 1.5rem);
+    }
 }

@@ -1,9 +1,9 @@
 @keyframes hovering {
-    100% {
-        top: 54px;
-    }
     0% {
-        top: 0px;
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(54px);
     }
 }
 
@@ -13,8 +13,11 @@
     border-color: #F07167;
 }
 
+.hover-container {
+    margin-bottom: 54px;
+}
+
 #Panel-hover{
-    width: 40%;
     position: relative;
     animation-name: hovering;
     animation-timing-function: ease-in-out;
@@ -24,6 +27,47 @@
 }
 
 #caption{
-    font-style: bold;
+    font-weight: bold;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+    @keyframes hovering {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(40px);
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    @keyframes hovering {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(30px);
+        }
+    }
+    
+    #Panel-hover {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    @keyframes hovering {
+        0% {
+            transform: translateY(0px);
+        }
+        100% {
+            transform: translateY(20px);
+        }
+    }
+    
+    #caption {
+        font-size: 18px;
+    }
 }

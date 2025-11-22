@@ -2,7 +2,7 @@ import '../../index.css'
 
 function Break(){
     return(
-        <hr class="Break"></hr>
+        <hr className="Break"></hr>
     )
 }
 

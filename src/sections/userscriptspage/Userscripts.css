@@ -1,19 +1,62 @@
 .Userscript-bg{
     background-color:black;
     height: 100vh;
-    color: white;
+    color: #E5E5E5;
 }
 
 .Codeblock{
     border-style: double;
-    width: 96vh;
-    height: 50vh;
-    font-size: 30px;
-    padding:1vh;
+    width: 42vw;
+    height: auto;
+    font-size: auto;
+    padding:3vw;
     position: relative;
     float: right;
-    margin-top: 1vh;
-    margin-right: 1vh;
+    margin: 1vw;
     border-radius: 25px;
-    font-family:'Lucida Console'
+    font-family:'Lucida Console';
+    white-space: pre;
+    border-color:#FFFFFF;
+    text-wrap: wrap;
+}
+
+.HeaderUS{
+    background-color: #14213D;
+    width: 100vw;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#TextUS{
+    padding-top: 10px;
+    font-size: 50px;
+    color: #E5E5E5;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    width: 100vw;
+    text-align: center;
+}
+
+.Border{
+    height: 2px;
+    background-color: #FCA311;
+}
+
+.Infobox{
+    position: absolute;
+    width: 42vw;
+    border-radius: 25px;
+    border-style: solid;
+    border-color:#FFFFFF;
+    padding: 3vw;
+    margin: 1vw;
+    font-size: auto;
+}
+
+a:link {
+    color: #FCA311
+}
+
+a:hover {
+    color: #FFFFFF;
 }

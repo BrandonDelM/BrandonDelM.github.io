@@ -2,8 +2,8 @@ import './Header.css'
 
 function Header(){
     return(
-        <div class="Header" id="slideAnimation">
-            <div class="Text" id="slideAnimation">
+        <div className="Header" id="slideAnimation">
+            <div className="Text" id="slideAnimation">
                 Brandon Del Mundo
             </div>
         </div>

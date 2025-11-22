@@ -20,6 +20,35 @@
     }
 }
 
+.Hero-Main{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 20px;
+    padding: 0 2%;
+}
+
+.Panel {
+    background-color: #FED9B7;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #fed5af;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    padding-bottom: 3%;
+    padding-left: 3%;
+    padding-right: 2.5%;
+    padding-top: 3%;
+    text-align: center;
+}
+
 #Slideinright{
     animation-name: slideright;
     animation-timing-function: ease-out;
@@ -34,49 +63,85 @@
     position: relative;
 }
 
-.Hero-Main{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 100%;
-}
-
-.Panel{
-    float:left;
-    text-align: center;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    background-color: #FED9B7;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 2%;
-    max-width: 40%;
-    padding-left: 3%;
-    padding-right: 2.5%;
-    border-radius: 25px;
-    border-style: solid;
-    border-color: #fed5af;
-    position: relative;
-}
-
 .Brandon{
     max-width: 100%;
+    height: auto;
+    display: block;
     align-items: center;
     border-style: solid;
     border-color: #F07167;
 }
 
-#Text{
+/* Use class names instead of IDs for better control */
+.hero-title {
     padding: 1%;
-    font-size: 40px;
+    font-size: 2vw;
     font-weight: bold;
     text-align: center;
-    word-wrap:break-word;
-    justify-content: space-between;
+    word-wrap: break-word;
 }
 
-#paragraph{
+.hero-paragraph {
     padding: 2%;
     text-align: center;
     font-size: 22px;
-    justify-content: space-between;
-   
+    line-height: 1.5;
+}
+
+/* Legacy support - keep these but classes take priority */
+#Text {
+    padding: 1%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+#paragraph {
+    padding: 2%;
+    text-align: center;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width: 768px) {
+    .Panel {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .Hero-Main {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .Panel {
+        flex-direction: column;
+        max-width: 95%;
+        width: 95%;
+        min-width: 280px;
+    }
+
+    .hero-title {
+        font-size: 5vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-title,
+    #Text {
+        font-size: 5vw;
+    }
+    
+    .hero-paragraph,
+    #paragraph {
+        font-size: 18px;
+    }
+    
+    .Panel {
+        padding: 5%;
+        min-width: 250px;
+    }
 }

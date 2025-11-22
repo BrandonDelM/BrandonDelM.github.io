@@ -9,8 +9,8 @@ import Footer from './homepage/Footer';
 
 function Homepage(){
     return(
-        <div>
-            <Header />
+        <>
+            <Header id="slideAnimation" />
             <Hero />
             <Break />
             <About />
@@ -18,7 +18,7 @@ function Homepage(){
             <Merced />
             <Break />
             <Footer />
-        </div>
+        </>
     );
 }
 
